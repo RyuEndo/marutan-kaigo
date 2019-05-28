@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+	width: 375px;
+	margin: 0 auto;
+	color: #212121;
+}
+
+.lineLink{
+	display: inline-block;
+	background-color: #57BD37;
+	border-radius: 30px;
+	padding: 22px 31px;
+	position: fixed;
+ 	bottom: 50px;
+	left: 50%;
+	transform: translate(-50%);
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+	width: 260px;
+	text-align: center;
+}
+
+.lineLink a{
+	font-size: 19px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+}
+
+header{
+	background-image: url("../image/backgroundImg1.png");
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	position: relative;
+	color: #FFF;
+	padding: 30px;
+}
+
+.topImg{
+	width: 150px;
+	height: auto;
+	object-fit: contain;
+	position: absolute;
+	bottom: 5px;
+	right: 28px;
+	filter: drop-shadow(3px -5px 5px rgba(0,0,0,0.3));
+}
+
+header h1{
+	font-size: 18px;
+	display: inline-block;
+	line-height: 23px;
+	font-weight: normal;
+	margin-right: 11px;
+}
+
+.title{
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 21px;
+}
+
+.title p{
+	font-size: 11px;
+}
+
+.title p img{
+	width: 11px;
+	object-fit: contain;
+}
+
+.line img{
+	vertical-align: text-bottom;
+}
+
+.topText1{
+	font-size: 10px;
+	line-height: 17px;
+	margin-bottom: 16px;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",sans-serif;
+}
+
+.topText2{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",sans-serif;
+}
+
+.clinic{
+	padding: 24px 28px;
+}
+
+h2{
+	font-size: 14px;
+	text-align: center;
+}
+
+.clinicImg{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.clinicImg img{
+	width: 70px;
+	height: 46px;
+	object-fit: contain;
+	margin: 0 3px;
+}
+
+.clinic p{
+	display: block;
+	text-align: right;
+	font-size: 10px;
+	color: #707070;
+	margin-top: 10px;
+}
+
+.proposal{
+	background-color: #FAFBFD;
+	padding: 24px 38px 4px 38px;
+}
+
+.proposal p{
+	text-align: center;
+	font-size: 10px;
+	color: #707070;
+}
+
+.proposal h2{
+	margin-bottom: 5px;
+}
+
+.proposal-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.proposal-item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.proposal-item img{
+	width: 120px;
+	object-fit: contain;
+	height: 120px;
+}
+
+.proposal-item p{
+	font-size: 12px;
+	color: #212121;
+	font-weight: bold;
+}
+
+.service{
+	padding: 24px 42px;
+	background-image: url("../image/backgroundImg2.png");
+	object-fit: cover;
+	width: 100%;
+	height: 650px;
+}
+
+.service h2{
+	margin-bottom: 20px;
+}
+
+.service-item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+}
+
+.service-item img{
+	width: 150px;
+	height: 170px;
+	object-fit: contain;
+}
+
+.serviceTexts{
+	margin-top: 25px;
+}
+
+.serviceText1{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.serviceText2{
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.serviceText3{
+	color: #707070;
+	font-size: 12px;
+}
+
+.case{
+	background-color: #FAFBFD;
+	padding: 24px 42px;
+}
+
+.case h2{
+	margin-bottom: 24px;
+}
+
+.case img{
+	display: block;
+	height: 142px;
+	object-fit: contain;
+	margin: 0 auto;
+	margin-bottom: 26px;
+}
+
+.caseText1{
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.caseText2{
+	color: #707070;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.question{
+	padding: 24px 42px;
+}
+
+.question h2{
+	margin-bottom: 19px;
+}
+
+.Q{
+	margin-bottom: 12px;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.A{
+	text-align: right;
+	margin-bottom: 12px;
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+.question p{
+	display: inline-block;
+}
+
+.pink{
+	padding: 10px 20px;
+	background-color: #FF84CF;
+	width: 180px;
+	border-radius: 28px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.gray{
+	padding: 10px 20px;
+	background-color: #FAFBFD;
+	width: 232px;
+	border-radius: 28px;
+	text-align: right;
+	font-size: 12px;
+}
+
+footer{
+	width: 100%;
+	height: 170px;
+	color: #FFF;
+	text-align: center;
+	line-height: 170px;
+	background-color: #212121;
+}
+
+
+
+
+
+
+
+
+
